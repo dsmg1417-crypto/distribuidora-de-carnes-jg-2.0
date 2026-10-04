@@ -1,0 +1,20 @@
+DISTRIBUIDORA DE CARNES JG — IMPORTACIÓN CORREGIDA
+
+Sube TODO el contenido de esta carpeta al repositorio que importas en Vercel.
+En la raíz del repositorio deben verse index.html, app.js, cart.js, menu.js,
+styles.css, cooking.css, cooking.js, combos.js, assets, package.json,
+build.mjs y vercel.json. No subas solamente los archivos de configuración.
+
+Vercel ya está configurado:
+  Root Directory: raíz del repositorio (sin escribir public ni dist)
+  Framework: Other
+  Build Command: npm run build
+  Output Directory: dist
+
+Después de actualizar el repositorio, vuelve a desplegarlo en Vercel.
+La construcción genera dist automáticamente.
+No necesita variables de entorno, base de datos ni claves.
+
+El error de la captura era: falta public/app.js en lo que recibió Vercel.
+Esta versión coloca todos los archivos de la página directamente en la raíz.
+revision-local contiene archivos de trabajo y no debe subirse.
